@@ -24,8 +24,7 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 - **The public name is now drift-management-framework.** DMF keeps the acronym
   and the lineage; the long form now says what the linter does. The
-  repository moved from the-pgh-cid/dmf to the-pgh-cid/Inertia-Drift-
-  Framework; the old URL redirects.
+  repository moved from the-pgh-cid/dmf to the-pgh-cid/drift-management-framework; the old URL redirects.
 
 - **Hard Style Constraints are scoped to artifacts.** Section 1 of the principal
   contract used to close with "and any other text the agent produces. No
