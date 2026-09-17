@@ -59,7 +59,7 @@ DMF 2.0: the modern layer. Same spine, new mechanisms.
 
 ### Added
 
-- `scripts/inertia-drift-lint`: the invariant linter, pure standard library.
+- `scripts/dmf-lint`: the invariant linter, pure standard library.
   Checks balanced DMF fences, link-pointer integrity, manifest schema,
   status-line presence, and the style floor. Runs in CI and on DMF itself.
 - Section 11 (Delegation and Subagents): the contract propagates to

@@ -53,7 +53,7 @@ anything written to disk or handed to a person.
 - No em dashes. Use commas, semicolons, colons, or restructure.
 - No ellipses. Finish the thought or cut it.
 - Mechanical rules are enforced by the linter, never by the agent's own
-  reasoning. The agent writes naturally; `inertia-drift-lint` catches
+  reasoning. The agent writes naturally; `dmf-lint` catches
   violations after the fact. Spending inference on style compliance is a
   framework violation.
 
@@ -306,13 +306,13 @@ LOCAL.
 ## LOCAL
 
 - **Allowed tools**: file operations, git, the bundled linter
-  (`scripts/inertia-drift-lint`), markdown and JSON tooling. No
+  (`scripts/dmf-lint`), markdown and JSON tooling. No
   runtime or dependency install required.
 - **Prohibited**: changing the four core invariants without an issue and
   a discussion first (see CONTRIBUTING.md); adding build steps or runtime
   dependencies to the framework.
 - **CI**: markdownlint, link check, schema validation, and
-  `inertia-drift-lint` run on every push and pull request to main. The
+  `dmf-lint` run on every push and pull request to main. The
   framework lints itself.
 - **File conventions**: template files live in `template/`; worked
   examples in `examples/`; the linter in `scripts/`; the changelog follows

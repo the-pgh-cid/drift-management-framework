@@ -52,7 +52,7 @@ project-scoped decisions captured during INITIAL, not universal requirements.
 DMF 2.0 keeps the four invariants and adds the layer the agent landscape
 demands. Each new section in the contract is a mechanism, not a promise:
 
-- **The linter.** `scripts/inertia-drift-lint` is a pure-stdlib invariant
+- **The linter.** `scripts/dmf-lint` is a pure-stdlib invariant
   linter: balanced DMF fences, link-pointer integrity, manifest schema,
   status-line presence, and the style floor across every text artifact
   format (markdown, YAML, code comments, and the rest; captured data and
@@ -82,7 +82,7 @@ demands. Each new section in the contract is a mechanism, not a promise:
    directives: scans the repository, asks the project owner what discovery
    cannot answer, populates the `DMF:LOCAL` sections, and deletes the
    `DMF:INITIAL` blocks.
-4. Copy `scripts/inertia-drift-lint` into your project (or wire it as a CI
+4. Copy `scripts/dmf-lint` into your project (or wire it as a CI
    step). Commit. The project is now under DMF governance, and the
    governance is machine-checked.
 
@@ -105,7 +105,7 @@ drift-management-framework/
 │   └── the-pgh-cid/   # this principal's filled-in template, reference for
 │                      # what GLOBAL looks like populated for one principal
 ├── scripts/
-│   └── inertia-drift-lint   # the invariant linter (pure stdlib)
+│   └── dmf-lint   # the invariant linter (pure stdlib)
 ├── LICENSE
 ├── CHANGELOG.md
 └── README.md          # this file
